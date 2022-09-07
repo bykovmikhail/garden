@@ -1,0 +1,21 @@
+.works {
+	border: 2px solid black;
+}
+.work {
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.work-diskription img {
+	width: 100px;
+}
+.work-diskription {
+	border: 2px solid red;
+	margin-bottom: 30px;
+}
+.work-diskription-hidden {
+	display: none;
+	
+}
+.work-container {
+	display: flex;
+}

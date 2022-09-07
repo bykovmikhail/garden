@@ -1,0 +1,143 @@
+@import 'null.css';
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper-index {
+	width: 100%;
+	height: 100vh;
+	border: 10px solid rgb(37, 4, 4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(/image/kiskelovo/kis-1.JPEG) no-repeat;
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+.index {
+	width: 100%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.index-title h1 {
+	font-size: 60px;
+	color: #ddfddd;
+	text-shadow: 0px 0px 3px rgb(0, 0, 0);
+	text-align: center;
+}
+.index-title p {
+	font-size: 25px;
+	color: rgb(250, 252, 250);
+	text-align: center;
+	text-shadow: 0px 0px 2px black;
+}
+.index-title-title {
+	margin-bottom: 10px;
+	animation-name: index-title-title;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes index-title-title {
+	0% {
+		font-size: 10px;
+		margin: 50px;
+	}
+	50% {
+		font-size: 60px;
+		opacity: 0.5;
+	}
+	100% {
+		font-size: 60px;
+	}
+}
+.index-title-phar {
+	font-size: 18px;
+	animation-name: index-title-phar;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	margin-bottom: 40px;
+}
+@keyframes index-title-phar {
+	0% {
+		font-size: 8px;
+		margin: 50px;
+	}
+	50% {
+		color: rgb(35, 244, 32);
+		font-size: 30px;
+		opacity: 0.5;
+	}
+	100% {
+		color: rgb(255, 255, 255);
+	}
+}
+.index-link {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	font-size: 40px;
+	animation-name: index-link;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	border: 1px solid rgba(169, 169, 169, 0.465);
+}
+.index-link:hover {
+	background-color: rgba(206, 245, 203, 0.341);
+	transition: 0.4s;
+	transition: 0.4s;
+}
+.index-link-div {
+	/* color: #d7d7d7; */
+	color: #603434;
+}
+.index-link-div:hover {
+	color: #0b9e0b;
+}
+
+.index-link span {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+@keyframes index-link {
+	0% {
+		font-size: 10px;
+	}
+	50% {
+		font-size: 50px;
+		opacity: 0.5;
+	}
+	100% {
+		font-size: 40px;
+	}
+}
+@media (max-width: 768px) {
+	.index-title h1 {
+		font-size: 50px;
+	}
+	.index-link {
+		font-size: 30px;
+	}
+	.index-title p {
+		font-size: 20px;
+	}
+	.index-link span {
+		font-size: 15px;
+	}
+}
+@media (max-width: 480px) {
+	.index-title h1 {
+		font-size: 30px;
+	}
+	.index-link {
+		font-size: 20px;
+	}
+	.index-title p {
+		font-size: 15px;
+	}
+	.index-link span {
+		font-size: 12px;
+	}
+}
