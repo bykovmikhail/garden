@@ -1,0 +1,29 @@
+.swiper {
+	width: 600px;
+	height: 300px;
+	border: 2px solid red;
+	cursor: grab;
+ }
+ /* .swiper-wrapper {
+	width: 600px;
+	height: 300px;
+ } */
+ /* .swiper-slide {
+	width: 600px;
+	height: 300px;
+ } */
+ .swiper-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+ }
+ .swiper-pagination {
+	color: aliceblue;
+	font-weight: 700;
+ }
+ .swiper-button-prev img{
+	color: white
+ }
+
+ 

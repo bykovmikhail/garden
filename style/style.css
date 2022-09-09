@@ -8,6 +8,9 @@
 @import "container-content.css";
 @import "akkordeon.css";
 @import "index.css";
+@import "portfolio.css";
+@import "swiper.css";
+
 
 html {
   box-sizing: border-box;

@@ -10,13 +10,12 @@
 .boss-container {
 	display: flex;
 	margin-bottom: 10px;
-	/* border: 12px solid red; */
 	justify-content: center;
 	margin-bottom: 20px;
 }
 .boss-container-part {
 	width: 50%;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	
 }
 .boss-img {
@@ -41,9 +40,10 @@
 }
 .additional {
 	display: flex;
+	border: 12px solid black;
 }
 .additional-article {
 	width: 50%;
-	height: 50vh;
-	border: 2px solid green;
+	min-height: 50vh;
+	
 }
