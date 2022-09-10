@@ -2,11 +2,29 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.index-menu {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.menu-list {
+	display: flex;
+}
+.menu-item {
+	margin-left: 10px;
+	font-size: 20px;
+}
+.menu-item a {
+	color: white;
+}
+
 .wrapper-index {
 	width: 100%;
 	height: 100vh;
-	border: 10px solid rgb(37, 4, 4);
+	/* border: 10px solid rgb(37, 4, 4); */
 	display: flex;
+
 	align-items: center;
 	justify-content: center;
 	background: url(/image/kiskelovo/kis-1.JPEG) no-repeat;
@@ -90,7 +108,7 @@ body {
 }
 .index-link-div {
 	/* color: #d7d7d7; */
-	color: #603434;
+	color: #5e4040;
 }
 .index-link-div:hover {
 	color: #0b9e0b;
@@ -98,7 +116,7 @@ body {
 
 .index-link span {
 	font-size: 30px;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 @keyframes index-link {

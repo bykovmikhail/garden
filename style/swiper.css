@@ -1,29 +1,28 @@
 .swiper {
-	width: 600px;
+	width: 100%;
 	height: 300px;
-	border: 2px solid red;
 	cursor: grab;
- }
- /* .swiper-wrapper {
+}
+/* .swiper-wrapper {
 	width: 600px;
 	height: 300px;
  } */
- /* .swiper-slide {
+/* .swiper-slide {
 	width: 600px;
 	height: 300px;
  } */
- .swiper-slide img {
+.swiper-slide img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	
- }
- .swiper-pagination {
+	object-fit: contain;
+}
+.swiper-pagination {
 	color: aliceblue;
 	font-weight: 700;
- }
- .swiper-button-prev img{
-	color: white
- }
-
- 
+}
+.swiper-button-prev::after {
+	color: rgb(157, 157, 157);
+}
+.swiper-button-next::after {
+	color: rgb(157, 157, 157);
+}

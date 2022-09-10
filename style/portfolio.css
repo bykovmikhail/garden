@@ -1,20 +1,21 @@
-
- .portfolio-gallery {
-	border: 2px solid red;
+.portfolio-gallery {
 	/* display: flex; */
-	
- }
- .portfolio-title h2 {
+}
+.portfolio-title h2 {
 	font-size: 30px;
 	font-weight: 700;
- }
- .portfolio-text {
-	
- }
+	text-align: center;
+}
+.portfolio-text {
+}
 
- .porftolio-section {
-	/* display: flex; */
-	border: 12px solid red;
+.porftolio-section {
 	margin-top: 100px;
+	width: 100%;
 	min-width: 0;
- }
+}
+
+.pictures {
+
+}
+
