@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper', {
    // Optional parameters
 slideToClickedSlide: true,
-   loop: true,
+   // loop: true,
    /* effect: 'fade' , */
    /* effect:'flip',
 	flipEffect:{

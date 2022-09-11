@@ -1,5 +1,7 @@
 .portfolio-gallery {
 	/* display: flex; */
+	/* border: 2px solid green; */
+	
 }
 .portfolio-title h2 {
 	font-size: 30px;
@@ -12,10 +14,40 @@
 .porftolio-section {
 	margin-top: 100px;
 	width: 100%;
-	min-width: 0;
+	background-color: rgb(193, 251, 168);
+	/* border: 2px solid red; */
 }
 
-.pictures {
+.pictures h2{
+	text-align: center;
+}
+.pictures-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 2px;
+}
+@media (max-width: 480px) {
+	.pictures-wrapper {
+		display: block;
+	}
+	.picture-item {
+		margin-bottom: 2px;
+	}
+}
+/* .picture-item {
+	width: 33.33%;
+} */
+.picture-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	/* display: block;
+	position: absolute;
+	top:0;
+	left: 0; */
+	
+}
+.picture-item {
 
 }
-

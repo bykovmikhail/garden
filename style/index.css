@@ -18,6 +18,11 @@ body {
 .menu-item a {
 	color: white;
 }
+.menu-item a:hover {
+	color: rgb(203, 203, 203);
+	text-decoration: underline;
+	transition: 0.5s;
+}
 
 .wrapper-index {
 	width: 100%;
