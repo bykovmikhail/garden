@@ -3,6 +3,9 @@
 	/* border: 2px solid green; */
 	
 }
+.portfolio-title {
+	
+}
 .portfolio-title h2 {
 	font-size: 30px;
 	font-weight: 700;
@@ -13,6 +16,7 @@
 
 .porftolio-section {
 	margin-top: 100px;
+	padding: 5px;
 	width: 100%;
 	background-color: rgb(193, 251, 168);
 	/* border: 2px solid red; */
@@ -23,16 +27,22 @@
 }
 .pictures-wrapper {
 	display: grid;
+	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: 2px;
 }
-@media (max-width: 480px) {
+.pictures-title {
+	margin: 5px;
+}
+@media (max-width: 768px) {
 	.pictures-wrapper {
 		display: block;
+		
 	}
 	.picture-item {
 		margin-bottom: 2px;
+		
 	}
 }
 /* .picture-item {
