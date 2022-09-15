@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="/style/style.css" />
+      <!-- подключил свайпер -->
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+      <title>Form</title>
+   </head>
+   <body>
+      <nav class="navbar">
+         <div class="container">
+            <div class="navbar__wrap">
+               <div class="hamb">
+                  <div class="hamb__field" id="hamb">
+                     <span class="bar"></span>
+                     <span class="bar"></span>
+                     <span class="bar"></span>
+                  </div>
+               </div>
+               <a href="#" class="logo" id="logo">
+                  <img
+                     src="https://img2.freepng.ru/20180412/clq/kisspng-company-kara-pardaz-corp-information-industry-logo-5acf00701cb9f2.5213935915235155041177.jpg"
+                     alt="" />
+               </a>
+               <ul class="menu" id="menu">
+                  <li><a href="index.html">Домашняя страница</a></li>
+                  <li><a href="#">Наши работы</a></li>
+                  <li><a href="#">Prices</a></li>
+                  <li><a href="#">Наши Контакты</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="popup" id="popup"></div>
+
+      <main class="main">
+         <section class="form">
+            <div class="content">
+               <form action="mywebsite.com" method="POST">
+                  <!--Input of any type and textareas goes in here-->
+                  <div class="inputs">
+                     <label for="name">Ваше имя:</label>
+                     <input  id="name" type="text" placeholder="введите имя" required  autocomplete="off"/>
+                     <label for="email" >Введите Ваш email:</label>
+                     <input id="email" type="email" placeholder="ведите адрес электронной почты" autocomplete="off"/>
+                     <label for="txtarea">Ваше сообщение:</label>
+                     <textarea id="txtarea" cols="50" rows="10" placeholder="Ваше сообщение" autocomplete="off"></textarea>
+                  </div>
+                  <div class="submit-reset">
+                     <input class="reset" type="reset" value="Reset" />
+                     <input class="submit" type="button" value="Submit" />
+                  </div>
+               </form>
+            </div>
+         </section>
+      </main>
+      <footer class="footer content-footer">
+         <div class="container">
+            <div class="content">footer vadik</div>
+         </div>
+      </footer>
+      <!-- свайпер -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="/scripts/swiper.js"></script>
+      <script src="/scripts/script.js"></script>
+      <script src="/scripts/akkordeon.js"></script>
+   </body>
+</html>
