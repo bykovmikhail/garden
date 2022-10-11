@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="/style/style.css" />
+      <!-- подключил свайпер -->
       <link
          rel="stylesheet"
          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -34,11 +35,11 @@
                      <a href="/first-page.html">Главная страница</a>
                   </li>
                   <li>
-                     <a href="/ourWork.html">Наши работы</a>
+                     <a href="/portfolio.html">Наши работы</a>
                   </li>
                   <li><a href="#">Prices</a></li>
                   <li>
-                     <a href="/form copy.html">Контакты</a>
+                     <a href="/form.html">Контакты</a>
                   </li>
                </ul>
             </div>
@@ -47,56 +48,19 @@
       <div class="popup" id="popup"></div>
 
       <main class="main">
-         <div class="container">
-            <section class="form">
-               <div class="content">
-                  <form action="/mail.php" name="" method="post" target="blank">
-                     <div class="form-centred">
-                        <div class="inputs">
-                           <label for="name">Ваше имя:</label>
-                           <input
-                              required
-                              id="name"
-                              name="user_name"
-                              type="text"
-                              placeholder="введите имя"
-                              autocomplete="off"
-                              maxlength="50" />
-                           <label for="name">Ваш телефон:</label>
-                           <input
-                              required
-                              id="name"
-                              name="user_phone"
-                              type="text"
-                              placeholder="введите телефон"
-                              autocomplete="off"
-                              maxlength="50" />
-                           <label for="email">Введите Ваш email:</label>
-                           <input
-                              id="email"
-                              name="user_mail"
-                              type="email"
-                              placeholder="ведите адрес электронной почты"
-                              autocomplete="off"
-                              maxlength="50" />
-                           <label for="txtarea">Ваше сообщение:</label>
-                           <textarea
-                              required
-                              id="txtarea"
-                              name="user_message"
-                              cols="50"
-                              rows="5"
-                              placeholder="Ваше сообщение"
-                              autocomplete="off"
-                              maxlength="250"></textarea>
-                        </div>
-                        <div class="submit-reset">
-                           <input class="reset" type="reset" value="Reset" />
-                           <input class="submit" type="submit" value="Submit" />
-                        </div>
-                     </div>
-                  </form>
-               </div>
+         <div class="container container-works-block">
+            <section class="works-block">
+               <a href="/boksitogorsk.html"
+                  ><div class="work-item">Бокситогорск</div></a
+               >
+               <a href="/hizelki.html"><div class="work-item">Хизельки</div></a>
+               <a href="/house_slose_see.html"><div class="work-item">Дом у моря</div></a>
+               <a href="/kiskelovo.html"><div class="work-item">Кисколово</div></a>
+               <a href="/lednevo.html"><div class="work-item">Леднево</div></a>
+               <a href="/novo_toksovo.html"><div class="work-item">Новое Токсово</div></a>
+               <a href="/ozerki.html"><div class="work-item">Озерки</div></a>
+               <a href="/strawberry.html"><div class="work-item">Земляничная поляна</div></a>
+               <a href="/strelna.html"><div class="work-item">Стрельна</div></a>
             </section>
          </div>
       </main>
@@ -135,6 +99,6 @@
       <script src="/scripts/swiper.js"></script>
       <script src="/scripts/script.js"></script>
       <script src="/scripts/akkordeon.js"></script>
-     
+      <script src="/scripts/portfolioHidden.js"></script>
    </body>
 </html>

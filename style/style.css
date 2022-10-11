@@ -1,17 +1,31 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
-@import "null.css";
-@import "footer.css";
-@import "main.css";
-@import "logo.css";
-@import "body.css";
-@import "container-content.css";
-@import "akkordeon.css";
-@import "index.css";
-@import "portfolio.css";
-@import "swiper.css";
-@import "form.css";
+@import 'null.css';
+@import 'footer.css';
+@import 'main.css';
+@import 'logo.css';
+@import 'body.css';
+@import 'container-content.css';
+@import 'akkordeon.css';
+@import 'index.css';
+@import 'portfolio.css';
+@import 'swiper.css';
+@import 'form.css';
+@import 'ourWork.css';
+@import 'contacts.css';
 
+/* !все переменные */
+:root {
+  --block-background: rgb(213, 246, 199); /* цвет для секций */
+  --header-footer-navbar-popup: #40a826;
+  --box-shadow: 5px 5px 15px black;
+  --color: rgb(34, 11, 11);
+  --text-indent: 40px;
+  --border: 1px solid rgb(166, 202, 144);
+  --padding-five: 5px;
+  --padding-ten: 10px;
+  --margin-five: 5px;
+  --margin-ten: 10px;
+}
 
 html {
   box-sizing: border-box;
@@ -91,8 +105,8 @@ html {
   top: 0;
   width: 100%;
   height: 75px;
-  background: #40a826;
-  
+  background: var(--header-footer-navbar-popup);
+
   z-index: 10;
 }
 
@@ -108,10 +122,7 @@ html {
 
 .popup {
   display: none;
-  
 }
-
-
 
 .menu > li > a {
   text-decoration: none;
@@ -143,8 +154,6 @@ html {
 }
 
 @media (max-width: 1000px) {
-  
-
   .navbar__wrap .menu {
     display: none;
   }
@@ -171,11 +180,10 @@ html {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: #40a826;
+    background: var(--header-footer-navbar-popup);
     z-index: 100;
     display: flex;
     transition: 0.3s;
-   
   }
   .popup.open {
     left: 0;
@@ -202,7 +210,6 @@ html {
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 10px;
-   
   }
   .popup .menu > li > a:hover {
     background-color: rgb(111, 252, 79);

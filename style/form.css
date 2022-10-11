@@ -1,19 +1,35 @@
 .form {
 	margin-top: 100px;
-	/* border: 2px solid red; */
-	background-color: rgb(193, 251, 168);
+	/* width: 90%; */
+	margin: 100px auto 30px auto;
+	background-color: var(--block-background);
+}
+
+.form-centred {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 input,
 textarea {
+	border:var(--border);
 	display: block;
-	background-color: rgb(218, 252, 204);
-	margin-bottom: 2px;
+	background-color: rgb(246, 246, 246);
+	margin: 0px auto 2px auto;
+	/* margin-bottom: 2px; */
 	padding: 2px;
 	width: 100%;
-	border: 1px solid rgb(123, 123, 123);
+	
+	/* font-size: 14px; */
 }
 input {
-	margin-bottom: 5px;
+	margin-bottom: var(--margin-five);
 }
 
 .inputs input:focus {
@@ -31,39 +47,54 @@ input {
 }
 .submit,
 .reset {
-	border: 1px solid black;
-	padding: 5px;
+	border:var(--border);
+	padding: var(--padding-five);
 }
 .submit {
 	width: 70%;
-	background-color: rgb(27, 200, 7);
+	/* background-color: rgb(27, 200, 7); */
+	background-color: rgb(30, 111, 16);
 }
 .submit:hover {
-	background-color: rgb(16, 143, 2);
+	background-color: rgb(33, 198, 14);
 	color: white;
 	transition: 0.3s;
 }
 .reset {
 	width: 30%;
 	margin-right: 2px;
-	background-color: rgb(250, 250, 43);
+	background-color: rgb(245, 245, 120);
 }
+.reset:hover {
+	background-color: rgb(249, 249, 19);
+	color: white;
+	transition: 0.3s;
+}
+
+
 .inputs {
 	/* border: 2px solid rgb(9, 255, 0); */
 	width: 50%;
-	margin-bottom: 5px;
+	margin-bottom: var(--margin-five);
 }
+/* a[href^="mailto:"] {
+	color: red;
+	font-size: 30px;
+} */
 @media (max-width: 768px) {
 	.form {
-		width: 250px;
+		width: 300px;
 	}
-	/* input,
-	textarea {
-		width: 250px;
-	} */
+
 	.inputs {
 		width: 100%;
+		font-size: 10px;
 	}
+	input,
+	textarea {
+		font-size: 15px;
+	}
+
 	.submit {
 		width: 50%;
 	}
@@ -71,4 +102,16 @@ input {
 		width: 50%;
 		margin-right: 2px;
 	}
+}
+
+
+.contacts-container {
+	margin-top: 100px;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contacts {
 }

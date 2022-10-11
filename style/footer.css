@@ -1,8 +1,8 @@
 .footer {
-	background: #40a826;
+	background: var(--header-footer-navbar-popup);
 	flex: 0 0 auto;
 	
  }
  .content-footer {
-	padding: 50px;
+	/* padding: 50px; */
  }

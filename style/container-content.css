@@ -7,6 +7,6 @@
 	/* border: 2px solid red; */
  }
  .content {
-	padding: 5px;
+	padding: var(--padding-five);
 	/* border: 2px solid black; */
  }

@@ -8,5 +8,5 @@
 	width: 75px;
 	height: 75px;
 	border: 2px solid black;
-	padding: 5px;
+	padding: var(--padding-five);
  }

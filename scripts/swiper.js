@@ -29,6 +29,7 @@ slideToClickedSlide: true,
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
    },
+  
 	
 
    // And if we need scrollbar

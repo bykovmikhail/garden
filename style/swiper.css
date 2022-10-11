@@ -2,7 +2,7 @@
 	width: 600px;
 	/* height: 300px; */
 	cursor: grab;
-	margin-bottom: 5px;
+	margin-bottom: var(--margin-five);
 }
 @media (max-width: 768px) {
 	.swiper {

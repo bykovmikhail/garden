@@ -5,10 +5,11 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="/style/style.css" />
+      <!-- подключил свайпер -->
       <link
          rel="stylesheet"
          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-      <title>Form</title>
+      <title>Kiskelovo</title>
    </head>
    <body>
       <nav class="navbar">
@@ -38,7 +39,7 @@
                   </li>
                   <li><a href="#">Prices</a></li>
                   <li>
-                     <a href="/form copy.html">Контакты</a>
+                     <a href="/form.html">Контакты</a>
                   </li>
                </ul>
             </div>
@@ -48,56 +49,70 @@
 
       <main class="main">
          <div class="container">
-            <section class="form">
-               <div class="content">
-                  <form action="/mail.php" name="" method="post" target="blank">
-                     <div class="form-centred">
-                        <div class="inputs">
-                           <label for="name">Ваше имя:</label>
-                           <input
-                              required
-                              id="name"
-                              name="user_name"
-                              type="text"
-                              placeholder="введите имя"
-                              autocomplete="off"
-                              maxlength="50" />
-                           <label for="name">Ваш телефон:</label>
-                           <input
-                              required
-                              id="name"
-                              name="user_phone"
-                              type="text"
-                              placeholder="введите телефон"
-                              autocomplete="off"
-                              maxlength="50" />
-                           <label for="email">Введите Ваш email:</label>
-                           <input
-                              id="email"
-                              name="user_mail"
-                              type="email"
-                              placeholder="ведите адрес электронной почты"
-                              autocomplete="off"
-                              maxlength="50" />
-                           <label for="txtarea">Ваше сообщение:</label>
-                           <textarea
-                              required
-                              id="txtarea"
-                              name="user_message"
-                              cols="50"
-                              rows="5"
-                              placeholder="Ваше сообщение"
-                              autocomplete="off"
-                              maxlength="250"></textarea>
+            <div class="portfolio">
+               <div class="portfolio-wrapper">
+                  <section class="porftolio-section">
+                     <article class="portfolio-text">
+                        <div class="content">
+                           <div class="portfolio-title">
+                              <h2>Кскелово</h2>
+                           </div>
+                           <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Numquam consequatur quaerat, quo aperiam
+                              quam odio illo minima eveniet fugit consectetur
+                              officia, et autem, quasi magni iste earum neque
+                              laborum eos? Exercitationem suscipit vel nulla
+                              distinctio ex ad iusto assumenda eum rerum error
+                              quia cum maiores optio ipsa accusamus enim
+                              deleniti aperiam totam sed e
+                           </p>
                         </div>
-                        <div class="submit-reset">
-                           <input class="reset" type="reset" value="Reset" />
-                           <input class="submit" type="submit" value="Submit" />
+                     </article>
+                     <article class="portfolio-gallery">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                           <!-- Additional required wrapper -->
+                           <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                 <img
+                                    src="/image/kiskelovo/kis-1.JPEG"
+                                    alt="" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img
+                                    src="/image/kiskelovo/kis-2.JPEG"
+                                    alt="" />
+                              </div>
+                           </div>
+                           <!-- If we need pagination -->
+                           <div class="swiper-pagination"></div>
+
+                           <!-- If we need navigation buttons -->
+                           <div class="swiper-button-prev"></div>
+                           <div class="swiper-button-next"></div>
+
+                           <!-- If we need scrollbar -->
+                           <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
+                     </article>
+                  </section>
+                  <section class="pictures">
+                     <div class="pictures-title">
+                        <h2>Кискелово</h2>
+                     </div>
+                     <div class="pictures-wrapper content">
+                        <div class="picture-item">
+                           <img src="/image/kiskelovo/kis-1.JPEG" alt="" />
+                        </div>
+                        <div class="picture-item">
+                           <img src="/image/kiskelovo/kis-2.JPEG" alt="" />
                         </div>
                      </div>
-                  </form>
+                  </section>
                </div>
-            </section>
+            </div>
          </div>
       </main>
       <footer class="footer content-footer">
@@ -135,6 +150,5 @@
       <script src="/scripts/swiper.js"></script>
       <script src="/scripts/script.js"></script>
       <script src="/scripts/akkordeon.js"></script>
-     
    </body>
 </html>
