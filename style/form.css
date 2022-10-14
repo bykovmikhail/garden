@@ -52,6 +52,7 @@ input {
 }
 .submit {
 	width: 70%;
+	color: rgb(249, 249, 19);
 	/* background-color: rgb(27, 200, 7); */
 	background-color: rgb(30, 111, 16);
 }
