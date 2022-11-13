@@ -40,12 +40,12 @@
 	min-width: 60%;
 	text-align: center;
 }
-.work-text:hover {
+/* .work-text:hover {
 	background-color: rgb(172, 198, 160);
 	transition: 0.3s;
 	box-shadow: var(--box-shadow);
 	color: rgb(68, 84, 59);
-}
+} */
 .work-text p {
 	font-weight: 700;
 	font-size: 20px;

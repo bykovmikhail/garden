@@ -2,32 +2,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* .index-menu {
-	position: absolute;
-	right: 5px;
-	top: 5px;
-}
-.menu-list {
-	display: flex;
-}
-.menu-item {
-	margin-left: 10px;
-	font-size: 20px;
-}
-.menu-item a {
-	color: white;
-	font-size: 15px;
-}
-.menu-item a:hover {
-	color: rgb(203, 203, 203);
-	text-decoration: underline;
-	transition: 0.5s;
-} */
-
 .wrapper-index {
 	width: 100%;
 	height: 100vh;
-	/* border: 10px solid rgb(37, 4, 4); */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -42,6 +19,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.index-title {
+	margin-bottom: 90px;
 }
 .index-title h1 {
 	font-size: 60px;
@@ -63,15 +43,11 @@ body {
 }
 @keyframes index-title-title {
 	0% {
-		font-size: 10px;
+		font-size: 0px;
 		margin: 50px;
 	}
-	50% {
-		font-size: 60px;
-		opacity: 0.5;
-	}
+
 	100% {
-		font-size: 60px;
 	}
 }
 .index-title-phar {
@@ -83,14 +59,10 @@ body {
 }
 @keyframes index-title-phar {
 	0% {
-		font-size: 8px;
+		font-size: 0px;
 		margin: 50px;
 	}
-	50% {
-		color: rgb(35, 244, 32);
-		font-size: 30px;
-		opacity: 0.5;
-	}
+
 	100% {
 		color: rgb(255, 255, 255);
 	}
@@ -99,7 +71,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	padding: var(--padding-ten);
-	font-size: 40px;
+	font-size: 25px;
 	animation-name: index-link;
 	animation-duration: 3s;
 	animation-iteration-count: 1;
@@ -112,37 +84,43 @@ body {
 	transition: 0.4s;
 }
 .index-link-div {
-	/* color: #d7d7d7; */
-	color: #5e4040;
+	color: #261717;
+	width: 200px;
+	padding: 10px;
 }
+.index-link-top {
+	margin-bottom: 20px;
+	position: relative;
 
+	animation-name: index-link-top;
+	animation-duration: 4s;
+}
+@keyframes index-link-top {
+	0% {
+		bottom: -300px;
+	}
+	100% {
+		bottom: 0;
+	}
+}
+.index-link-down {
+	animation-name: index-link-down;
+	animation-duration: 1.5s;
+	position: relative;
+}
+@keyframes index-link-down {
+	0% {
+		bottom: -300px;
+	}
+	100% {
+		bottom: 0;
+	}
+}
 
 .index-link-div:hover {
 	color: #0b9e0b;
 }
-.index-link-div:hover span {
-	text-decoration: underline;
-	color: #ffffff;
-}
 
-.index-link span {
-	font-size: 30px;
-	font-weight: 200;
-	/* text-decoration: underline; */
-}
-
-@keyframes index-link {
-	0% {
-		font-size: 10px;
-	}
-	50% {
-		font-size: 50px;
-		opacity: 0.5;
-	}
-	100% {
-		font-size: 40px;
-	}
-}
 @media (max-width: 768px) {
 	.index-title h1 {
 		font-size: 50px;
