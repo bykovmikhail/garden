@@ -51,7 +51,7 @@ body {
 	}
 }
 .index-title-phar {
-	font-size: 18px;
+	font-size: 16px;
 	animation-name: index-title-phar;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
@@ -118,7 +118,7 @@ body {
 }
 
 .index-link-div:hover {
-	color: #0b9e0b;
+	color: #fefefe;
 }
 
 @media (max-width: 768px) {

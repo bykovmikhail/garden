@@ -10,15 +10,16 @@
 	font-weight: 700;
 	text-align: center;
 }
-.portfolio-text {
-	
+.portfolio-text {	
 	margin-bottom: var(--margin-five);
 	margin-top: var(--margin-five);
 	margin-right: auto;
 	margin-left: auto;
 	background-color: white;
 	width: 70%;
-
+}
+.portfolio-text p {
+	text-indent: 20px;
 }
 
 .porftolio-section {

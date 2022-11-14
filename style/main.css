@@ -5,26 +5,22 @@
 .boss {
 	background-color: var(--block-background);
 	margin-top: 100px;
-	margin-bottom: var(--margin-five);
+	margin-bottom: var(--margin-thirty);
 }
 .boss-container {
 	display: flex;
 	margin-bottom: var(--margin-five);
 	justify-content: center;
+	align-items: center;
 	margin-bottom: 20px;
-	/* border: 2px solid red; */
+
 }
-/* .boss-container-part {
-	border: 2px solid red;
-} */
+
 .boss-img p {
 	text-align: center;
 	font-weight: 700;
 }
-/* .boss-container-part {
-	
-	border: 2px solid black;
-} */
+
 .boss-text {
 	display: flex;
 	flex-direction: column;
@@ -41,12 +37,12 @@
 .boss-text a {
 	font-size: 15px;
 	font-weight: 700;
-	color:rgb(103, 34, 34);
+	color: rgb(103, 34, 34);
 }
 .boss-text a:hover {
 	text-decoration: underline;
 	transition: 0.3s;
-	color:rgb(212, 58, 58);
+	color: rgb(212, 58, 58);
 }
 .boss-text p {
 	text-indent: 40px;
@@ -68,16 +64,11 @@
 	.boss-text {
 		width: 100%;
 	}
-
-	
 }
 
 .boss-img {
 	max-width: 250px;
 	margin-right: var(--padding-five);
-
-	/* min-height: 150px; */
-	/* margin: 0 auto; */
 }
 .boss-img img {
 	width: 100%;

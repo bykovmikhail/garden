@@ -34,6 +34,7 @@
 .swiper-pagination {
 	color: rgb(255, 255, 255);
 	font-weight: 700;
+	font-size: 20px;
 }
 .swiper-button-prev::after {
 	color: rgba(255, 255, 255, 0.8);

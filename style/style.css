@@ -25,6 +25,7 @@
   --padding-ten: 10px;
   --margin-five: 5px;
   --margin-ten: 10px;
+  --margin-thirty: 30px;
 }
 
 html {
@@ -126,6 +127,7 @@ html {
 
 .menu > li > a {
   text-decoration: none;
+  
 }
 
 .navbar__wrap .menu {
@@ -135,6 +137,7 @@ html {
 .navbar__wrap .menu > li {
   display: flex;
   align-items: stretch;
+ 
 }
 
 .navbar__wrap .menu > li > a {
@@ -144,8 +147,10 @@ html {
   align-items: center;
   padding: 0 20px;
   color: rgb(229, 222, 222);
+
   /* color: rgb(12, 97, 10); */
 }
+
 
 .navbar__wrap .menu > li > a:hover {
   /* color: rgb(229, 222, 222); */
