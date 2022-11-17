@@ -1,12 +1,13 @@
 .swiper {
 	width: 600px;
+	border: 1px solid red;
 	/* height: 300px; */
 	cursor: grab;
 	margin-bottom: var(--margin-five);
 }
 @media (max-width: 768px) {
 	.swiper {
-		width: 500px;
+		width: 400px;
 		
 	}
 }

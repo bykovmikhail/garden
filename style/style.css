@@ -18,9 +18,7 @@
 :root {
   --block-background: rgb(213, 246, 199); /* цвет для секций */
   /* --header-footer-navbar-popup: #40a826; */
-  --header-footer-navbar-popup: #4daa36;
-  
- 
+  --header-footer-navbar-popup: #4daa36; 
   --box-shadow: 5px 5px 15px black;
   --color: rgb(34, 11, 11);
   --text-indent: 40px;
