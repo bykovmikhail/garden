@@ -91,9 +91,11 @@ body {
 .index-link-top {
 	margin-bottom: 20px;
 	position: relative;
-
 	animation-name: index-link-top;
 	animation-duration: 4s;
+}
+.index-link-top,.index-link-down {
+	background-color: rgba(255, 255, 255, 0.397);
 }
 @keyframes index-link-top {
 	0% {

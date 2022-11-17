@@ -1,6 +1,5 @@
 .portfolio-gallery {
-	/* display: flex; */
-	/* border: 2px solid green; */
+	
 }
 .portfolio-title {
 }
@@ -8,16 +7,17 @@
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
+	color: var(--color);
 }
 .portfolio-text {
 	margin-bottom: var(--margin-five);
-	/* margin-top: var(--margin-five); */
 	margin-right: auto;
 	margin-left: auto;
 	background-color: white;
 	width: 70%;
 	display: flex;
 	align-items: center;
+	color: var(--color);
 }
 .portfolio-text p {
 	text-indent: 20px;
@@ -25,14 +25,13 @@
 }
 
 .porftolio-section {
-	/* !дисплей флекс */
 	display: flex;
 	margin-top: 100px;
 	margin-bottom: 10px;
 	padding: var(--padding-five);
 	width: 100%;
 	background-color: var(--block-background);
-	/* border: 2px solid red; */
+	
 }
 
 .pictures {
@@ -41,11 +40,10 @@
 }
 
 .pictures h2 {
-	
 }
 .pictures-wrapper {
 	display: grid;
-	/* grid-template-columns: 1fr 1fr 1fr; */
+	
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: 2px;
@@ -57,19 +55,21 @@
 	font-size: 25px;
 	font-weight: 700;
 	text-align: center;
+	color: var(--color);
+}
+.picture-item :hover {
+	box-shadow: 0px 0px 10px black;
+	transition: 0.5s;
+	transform: scale(1.01);	
+	cursor: pointer;
+	position: relative;
+	z-index: 3;
 }
 
-/* .picture-item {
-	width: 33.33%;
-} */
 .picture-item img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	/* display: block;
-	position: absolute;
-	top:0;
-	left: 0; */
 }
 .picture-item {
 }
@@ -86,11 +86,9 @@
 	}
 	.portfolio-title h2 {
 		font-size: 20px;
-		
 	}
 	.pictures-title h2 {
 		font-size: 18px;
-		
 	}
 }
 @media (max-width: 481px) {
@@ -99,9 +97,7 @@
 		font-size: 12px;
 	}
 	.porftolio-section {
-		
 		padding: 0px;
 		padding-top: var(--padding-five);
-		
 	}
 }
