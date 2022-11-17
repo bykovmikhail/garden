@@ -23,6 +23,8 @@
 }
 
 .porftolio-section {
+	/* !дисплей флекс */
+	display: flex;
 	margin-top: 100px;
 	margin-bottom: 10px;
 	padding: var(--padding-five);
