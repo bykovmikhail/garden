@@ -121,6 +121,8 @@ body {
 
 .index-link-div:hover {
 	color: #fefefe;
+	background-color: rgba(124, 74, 24, 0.466);
+	transition: 0.8s;
 }
 
 @media (max-width: 768px) {
