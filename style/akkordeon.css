@@ -4,8 +4,13 @@
 .work {
 	cursor: pointer;
 	margin-bottom: var(--margin-five);
-	background-color: var(--block-background);
+	/* background-color: var(--block-background); */
+	
 	border: 1px solid transparent;
+}
+.work:hover {
+	background-color: #63DB93;
+	transition: 0.3s;
 }
 .work-container {
 	padding: var(--padding-ten);
@@ -39,9 +44,11 @@
 .work-text {
 	padding: var(--padding-ten);
 	background-color: rgb(193, 221, 180);
+	background-color: #FF8E73;
 	min-width: 60%;
 	text-align: center;
 }
+
 
 .work-text p {
 	font-weight: 700;
