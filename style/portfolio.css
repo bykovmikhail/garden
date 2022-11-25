@@ -8,6 +8,7 @@
 	font-weight: 700;
 	text-align: center;
 	color: var(--color);
+	margin-bottom: var(--margin-thirty);
 }
 .portfolio-text {
 	margin-bottom: var(--margin-five);
@@ -26,16 +27,16 @@
 
 .porftolio-section {
 	display: flex;
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	margin-bottom: 10px;
 	padding: var(--padding-five);
 	width: 100%;
-	background-color: var(--block-background);
+	/* background-color: var(--block-background); */
 	
 }
 
 .pictures {
-	background-color: var(--block-background);
+	/* background-color: var(--block-background); */
 	margin-bottom: var(--margin-ten);
 }
 
@@ -56,6 +57,8 @@
 	font-weight: 700;
 	text-align: center;
 	color: var(--color);
+	margin-top: var(--margin-thirty);
+	margin-bottom: var(--margin-thirty);;
 }
 .picture-item :hover {
 	box-shadow: 0px 0px 10px black;
@@ -93,7 +96,7 @@
 }
 @media (max-width: 481px) {
 	.portfolio-text p {
-		/* max-width: 320px; */
+		
 		font-size: 12px;
 	}
 	.porftolio-section {

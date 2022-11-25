@@ -9,7 +9,6 @@
 @import 'index.css';
 @import 'portfolio.css';
 @import 'swiper.css';
-
 @import 'ourWork.css';
 @import 'ourworks.css';
 @import 'contacts.css';
@@ -102,7 +101,6 @@ html {
 }
 
 .navbar__wrap .menu > li > a:hover {
-  /* color: rgb(229, 222, 222); */
   color: rgb(210, 208, 208);
   text-decoration: underline;
   transition: 0.3s;
@@ -125,7 +123,6 @@ html {
     width: 30px;
     height: 3px;
     margin: 6px auto;
-    /* background-color: rgb(10, 75, 22); */
     background-color: rgb(255, 255, 255);
     transition: 0.2s;
   }
@@ -165,7 +162,6 @@ html {
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
-    /* margin-bottom: 10px; */
     margin: 0px auto 10px auto;
   }
   .popup .menu > li > a:hover {

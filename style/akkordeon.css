@@ -4,14 +4,10 @@
 .work {
 	cursor: pointer;
 	margin-bottom: var(--margin-five);
-	/* background-color: var(--block-background); */
-	
+
 	border: 1px solid transparent;
 }
-.work:hover {
-	background-color: #63DB93;
-	transition: 0.3s;
-}
+
 .work-container {
 	padding: var(--padding-ten);
 }
@@ -21,7 +17,8 @@
 	height: 100px;
 	position: relative;
 	border: 1px solid rgb(198, 197, 197);
-	background-color: rgb(239, 239, 239);
+	background-color: rgb(220, 220, 220);
+
 	margin-right: var(--margin-five);
 	margin-bottom: var(--margin-five);
 }
@@ -43,16 +40,14 @@
 }
 .work-text {
 	padding: var(--padding-ten);
-	background-color: rgb(193, 221, 180);
-	background-color: #FF8E73;
+
 	min-width: 60%;
 	text-align: center;
 }
 
-
 .work-text p {
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 35px;
 }
 @media (max-width: 768px) {
 	.work-text p {
@@ -64,7 +59,7 @@
 	padding: 15px;
 	margin: 0px auto 30px auto;
 	background-color: rgb(255, 255, 255);
-	border: 1px solid rgb(166, 202, 144);
+
 	width: 80%;
 }
 .work-diskription p {

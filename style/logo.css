@@ -2,16 +2,13 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	/* border-radius: 50px; */
-	box-shadow: 0px 0px 4px #63DB93;
- }
+	box-shadow: 0px 0px 4px #63db93;
+}
 
- .logo {
+.logo {
 	max-width: 300px;
 	height: 150px;
-	/* border: 2px solid black; */
 	padding: var(--padding-five);
 	border: 2px transparent;
 	border-radius: 30px;
-	
- }
+}

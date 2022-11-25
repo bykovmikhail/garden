@@ -1,10 +1,10 @@
 .main {
 	flex: 1 0 auto;
+	margin-top: 170px;
 }
 
 .boss {
-	/* background-color: var(--block-background); */
-	margin-top: 170px;
+	/* margin-top: 170px; */
 	margin-bottom: var(--margin-thirty);
 }
 .boss-container {

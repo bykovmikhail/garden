@@ -1,12 +1,15 @@
 .container {
 	width: 100%;
-	/* max-width: 1000px; */
+	
 	margin: 0 auto;
 	height: 100%;
-	/* padding: 0 15px; */
-	/* border: 2px solid red; */
+	
  }
  .content {
 	padding: var(--padding-five);
 	
+ }
+ .container-footer {
+	display: flex;
+	justify-content: center;
  }

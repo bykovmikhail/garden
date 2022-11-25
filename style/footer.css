@@ -1,8 +1,10 @@
 .footer {
 	background: var(--header-footer-navbar-popup);
 	flex: 0 0 auto;
+	height: 200px;
+}
+
+
+.content-footer {
 	
- }
- .content-footer {
-	/* padding: 50px; */
- }
+}

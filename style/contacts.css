@@ -1,7 +1,5 @@
 .contacts {
-	/* border: 2px solid red; */
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px 5px 30px 5px;
@@ -10,13 +8,9 @@
 	width: 40px;
 }
 
-/* .contacts-icons {
-	display: flex;
-	flex-direction: column;
-} */
+
 .tel span {
 	text-decoration: underline;
-	
 }
 .tel span:hover {
 	color: rgb(239, 255, 15);
@@ -34,4 +28,3 @@
 .contacts-icons img {
 	margin-right: var(--margin-ten);
 }
-
