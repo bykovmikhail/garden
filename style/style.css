@@ -45,10 +45,10 @@ html {
   top: 0;
   width: 100%;
   height: 150px;
-  background: var(--header-footer-navbar-popup);
-  background:url(/image/top-1.jpg);
-  background:url(/image/green-grass-1.jpg);
-  background-position: bottom;
+  /* background:url(/image/tree-2.jpg); */
+  background-color: rgb(52, 24, 24);
+  
+  
   z-index: 10;
 }
 
