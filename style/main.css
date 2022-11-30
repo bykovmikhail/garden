@@ -13,11 +13,27 @@
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 20px;
+	border: 6px solid rgb(0, 42, 255);
 
+}
+.boss-img {
+	margin-bottom: var(--margin-ten);
+	height: 300px;
+}
+.boss-img img {
+	
+	
 }
 
 .boss-img p {
 	text-align: center;
+	font-weight: 700;
+	
+}
+p span {
+	font-style: italic;
+}
+p span span {
 	font-weight: 700;
 }
 
@@ -33,6 +49,7 @@
 	font-weight: 700;
 	font-size: 30px;
 	margin-bottom: var(--margin-ten);
+	text-align: center;
 }
 .boss-text a {
 	font-size: 15px;
