@@ -21,7 +21,8 @@ body {
 	justify-content: center;
 }
 .index-title {
-	margin-bottom: 90px;
+	margin-bottom: 10px;
+	
 }
 .index-title h1 {
 	font-size: 60px;
@@ -29,11 +30,15 @@ body {
 	text-shadow: 0px 0px 3px rgb(0, 0, 0);
 	text-align: center;
 }
+.index-title {
+	
+}
 .index-title p {
 	font-size: 25px;
 	color: rgb(250, 252, 250);
 	text-align: center;
 	text-shadow: 0px 0px 2px black;
+	
 }
 .index-title-title {
 	margin-bottom: var(--margin-five);
@@ -85,14 +90,18 @@ body {
 }
 .index-link-div {
 	color: #261717;
-	width: 200px;
+	font-size: 20px;
+	width: 140px;
 	padding: 10px;
 }
 .index-link-top {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	position: relative;
 	animation-name: index-link-top;
 	animation-duration: 2s;
+}
+.index-link-down {
+	margin-bottom: 80px;
 }
 .index-link-top,
 .index-link-down {
@@ -126,7 +135,7 @@ body {
 	transition: 0.8s;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.index-title h1 {
 		font-size: 50px;
 	}
@@ -139,10 +148,11 @@ body {
 	.index-link span {
 		font-size: 15px;
 	}
-}
-@media (max-width: 480px) {
+} */
+@media (max-width: 768px) {
 	.index-title h1 {
 		font-size: 30px;
+		
 	}
 	.index-link {
 		font-size: 20px;
@@ -150,7 +160,8 @@ body {
 	.index-title p {
 		font-size: 15px;
 	}
-	.index-link span {
-		font-size: 12px;
+	.index-link-div{
+		font-size: 16px;
+		
 	}
 }

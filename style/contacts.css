@@ -12,17 +12,21 @@
 .tel span {
 	text-decoration: underline;
 }
-.tel span:hover {
-	color: rgb(239, 255, 15);
-	transition: 0.3s;
-}
+
 .tel {
-	margin-bottom: var(--margin-five);
+	margin-bottom: var(--margin-thirty);
 	text-align: center;
 	color: white;
+	font-size: 16px;
+	
+
 }
 .tel a {
 	color: white;
+}
+.tel a:hover {
+	color: rgb(239, 255, 15);
+	transition: 0.3s;
 }
 
 .contacts-icons img {

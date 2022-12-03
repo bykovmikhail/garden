@@ -65,10 +65,13 @@
 .work-diskription p {
 	text-indent: var(--text-indent);
 	font-size: 18px;
+	line-height: 30px;
 }
 @media (max-width: 768px) {
 	.work-diskription p {
-		font-size: 14px;
+		font-size: 16px;
+		line-height: 28px;
+		
 	}
 	.work-diskription {
 		min-width: 280px;
