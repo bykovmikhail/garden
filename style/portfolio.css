@@ -1,5 +1,4 @@
 .portfolio-gallery {
-	
 }
 .portfolio-title {
 }
@@ -24,26 +23,29 @@
 	/* text-indent: 20px; */
 	font-size: 18px;
 }
-.workname-list li{
+.workname-list li {
 	background: url(/image/pngegg.png) no-repeat;
-	background-position: left -2px;
-	background-size: 20px;
-	line-height: 30px;
+	background-position: left;
+	background-size: 15px;
+	line-height: 20px;
+}
+.workname-list li p {
+	margin-bottom: var(--margin-ten);
 }
 .workname-item {
 	margin-left: 30px;
-	
 }
-
 
 .porftolio-section {
 	display: flex;
 	/* margin-top: 100px; */
 	margin-bottom: 10px;
+	margin-right: var(--margin-five);
+	margin-left: var(--margin-five);
 	padding: var(--padding-five);
 	width: 100%;
+	justify-content: center;
 	/* background-color: var(--block-background); */
-	
 }
 
 .pictures {
@@ -55,7 +57,7 @@
 }
 .pictures-wrapper {
 	display: grid;
-	
+
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: 2px;
@@ -69,12 +71,12 @@
 	text-align: center;
 	color: var(--color);
 	margin-top: var(--margin-thirty);
-	margin-bottom: var(--margin-thirty);;
+	margin-bottom: var(--margin-thirty);
 }
 .picture-item :hover {
 	box-shadow: 0px 0px 10px black;
 	transition: 0.5s;
-	transform: scale(1.01);	
+	transform: scale(1.01);
 	cursor: pointer;
 	position: relative;
 	z-index: 3;
@@ -87,16 +89,28 @@
 }
 .picture-item {
 }
+
+@media (max-width: 940px) {
+	.portfolio-title h2 {
+		font-size: 23px;
+	}
+	.portfolio-text p {
+		font-size: 15px;
+	}
+}
 @media (max-width: 768px) {
 	.porftolio-section {
 		/* !дисплей флекс */
 		display: block;
 	}
 	.pictures-wrapper {
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.picture-item {
 		margin-bottom: 2px;
+		width: 49%;
 	}
 	.portfolio-title h2 {
 		font-size: 20px;
@@ -106,12 +120,20 @@
 	}
 }
 @media (max-width: 481px) {
-	.portfolio-text p {
+	/* .portfolio-text p {
 		
 		font-size: 12px;
-	}
+	} */
 	.porftolio-section {
 		padding: 0px;
 		padding-top: var(--padding-five);
+	}
+	.pictures-wrapper {
+		display: block;
+	}
+	.picture-item {
+		margin-bottom: 2px;
+		width: 70%;
+		margin: 0 auto;
 	}
 }
