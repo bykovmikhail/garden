@@ -172,7 +172,7 @@ html {
     overflow: hidden;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 768px) {
   .navbar {
     max-height: 100px;
   }
