@@ -171,10 +171,8 @@ html {
   body.noscroll {
     overflow: hidden;
   }
-}
-@media (max-width: 768px) {
   .navbar {
-    max-height: 100px;
+    height: 70px;
   }
   .logo {
     display: none;
