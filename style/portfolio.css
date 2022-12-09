@@ -2,10 +2,8 @@
 }
 .portfolio-title {
 }
-.back {
-	width: 100px;
+.back-link {	
 	font-size: 20px;
-	/* border: 2px solid black; */
 	position: fixed;
 	top:5px;
 	left: 5px;
@@ -13,22 +11,42 @@
 	text-align: center;
 	opacity: 0.5;
 	padding: var(--padding-five);
-	background-color: white;
-	color: rgb(6, 6, 6);
-	
+	background-color: rgb(222, 222, 222);
 	border-radius: 30px;
 }
-.back p {
 
-}
-.back:hover {
+.back-link:hover {
 	opacity: 1;
 	background-color: var(--header-footer-navbar-popup);
-	background-color: rgb(67, 67, 67);
+	background-color: rgb(184, 184, 184);
 	color:white
-	
-	/* color: white; */
 }
+.back {
+	width: 100px;
+	height: 30px;
+}
+.back img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .portfolio-title h2 {
 	font-size: 30px;
 	font-weight: 700;
