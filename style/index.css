@@ -8,7 +8,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url(/image/kiskelovo/kis-1.JPEG) no-repeat;
+	/* background: url(/image/kiskelovo/kis-1.JPEG) no-repeat; */
+	/* background: url(/image/kiskelovo/kis-2.JPEG) no-repeat; */
+	background: url(/image/lednevo/l-4.jpg) no-repeat;
 	background-size: cover;
 	background-position: 60% 50%;
 }
