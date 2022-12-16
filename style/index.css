@@ -8,9 +8,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* background: url(/image/kiskelovo/kis-1.JPEG) no-repeat; */
-	/* background: url(/image/kiskelovo/kis-2.JPEG) no-repeat; */
-	background: url(/image/lednevo/l-4.jpg) no-repeat;
+	background: url(/image/strawberry_fields/st-3.jpg) no-repeat;
 	background-size: cover;
 	background-position: 60% 50%;
 }
@@ -74,12 +72,13 @@ body {
 .index-link {
 	margin: 0 auto;
 	text-align: center;
-	padding: var(--padding-ten);
+	/* padding: var(--padding-ten); */
 	font-size: 25px;
 	animation-name: index-link;
 	animation-duration: 3s;
 	animation-iteration-count: 1;
 	border: 1px solid rgba(169, 169, 169, 0.465);
+	
 	text-decoration: none;
 }
 .index-link:hover {
@@ -91,7 +90,7 @@ body {
 	color: #261717;
 	font-size: 20px;
 	width: 140px;
-	padding: 10px;
+	padding: 5px;
 }
 .index-link-top {
 	margin-bottom: 10px;
@@ -104,7 +103,7 @@ body {
 }
 .index-link-top,
 .index-link-down {
-	background-color: rgba(255, 255, 255, 0.397);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 @keyframes index-link-top {
 	0% {
