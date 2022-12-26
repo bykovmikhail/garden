@@ -1,8 +1,4 @@
-
-
 .ourworks {
-	/* margin-top: 170px; */
-	/* background-color: var(--block-background); */
 	padding: var(--margin-five);
 }
 .container {
@@ -15,10 +11,8 @@
 }
 .item-link {
 	display: flex;
-
 	align-items: center;
 	position: relative;
-
 	width: 30%;
 	margin-bottom: var(--margin-ten);
 }

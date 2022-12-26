@@ -31,22 +31,6 @@
 	object-fit: contain;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .portfolio-title h2 {
 	font-size: 30px;
 	font-weight: 700;
@@ -102,11 +86,13 @@
 }
 .pictures-wrapper {
 	display: grid;
-
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: 2px;
+	
+	
 }
+
 .pictures-title {
 	margin: 5px;
 }

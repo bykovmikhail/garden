@@ -72,25 +72,20 @@ body {
 .index-link {
 	margin: 0 auto;
 	text-align: center;
-	/* padding: var(--padding-ten); */
-	font-size: 25px;
 	animation-name: index-link;
 	animation-duration: 3s;
 	animation-iteration-count: 1;
-	border: 1px solid rgba(169, 169, 169, 0.465);
-	
 	text-decoration: none;
 }
 .index-link:hover {
-	background-color: rgba(206, 245, 203, 0.341);
+	color: #fefefe;
+	background-color: rgba(124, 74, 24, 0.466);
 	transition: 0.4s;
 	transition: 0.4s;
 }
 .index-link-div {
-	color: #261717;
-	font-size: 20px;
-	width: 140px;
-	padding: 5px;
+	font-size: 25px;
+	font-weight: 700;
 }
 .index-link-top {
 	margin-bottom: 10px;
@@ -103,7 +98,13 @@ body {
 }
 .index-link-top,
 .index-link-down {
-	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	color: #422626bd;
+	font-size: 20px;
+	width: 250px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.501);
+	border-radius: 20px;
 }
 @keyframes index-link-top {
 	0% {
@@ -127,11 +128,7 @@ body {
 	}
 }
 
-.index-link-div:hover {
-	color: #fefefe;
-	background-color: rgba(124, 74, 24, 0.466);
-	transition: 0.8s;
-}
+
 
 /* @media (max-width: 768px) {
 	.index-title h1 {

@@ -104,8 +104,9 @@ p {
 	margin-bottom: 20px;
 }
 .form-button {
+	font-size: 20px;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 10px;
 	background-color: rgb(91, 204, 71);
 	color: rgb(40, 39, 39);
 	width: 60%;
